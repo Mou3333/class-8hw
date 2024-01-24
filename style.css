@@ -1,0 +1,85 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 2px;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+} 
+nav{
+    background-color: #02918b;
+}
+nav .container{
+    width: 1170px;
+    margin:auto;
+}
+
+div  .row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .row ul li{
+    display:inline-block;
+    padding-right: 25px;
+ 
+}
+nav .row img{
+    padding: 18px 0 23px 0;
+   
+}
+nav .row ul li a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+}
+
+#banner{
+    background-image: url("banner.png");
+    height:730px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+}
+#banner .row{
+    height:730px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+
+
+}
+#banner .row h4{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+#banner .row h1{
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+#banner .container .row a{
+    padding: 20px 40px;
+    background-color:#cfc91d ;
+    margin-top: 50px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
